@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class ViewController: UIViewController {
-
+    
+    override func loadView() {
+        let camera = GMSCameraPosition.camera(withLatitude: 0.00, longitude: 0.00, zoom: 12)
+        let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
+        self.view = mapView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

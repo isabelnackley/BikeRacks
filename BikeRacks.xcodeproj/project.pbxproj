@@ -14,6 +14,7 @@
 		33D757BF1FA52B5900EEFE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D757BD1FA52B5900EEFE3B /* LaunchScreen.storyboard */; };
 		33D757CA1FA52B5900EEFE3B /* BikeRacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D757C91FA52B5900EEFE3B /* BikeRacksTests.swift */; };
 		33D757D51FA52B5900EEFE3B /* BikeRacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D757D41FA52B5900EEFE3B /* BikeRacksUITests.swift */; };
+		7410ACBAE0B969CB2AAB457F /* libPods-BikeRacks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC120F6ECF79BFAB974F8922 /* libPods-BikeRacks.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1591492E2E49EEDDDADB9F1D /* Pods-BikeRacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeRacks/Pods-BikeRacks.debug.xcconfig"; sourceTree = "<group>"; };
 		33D757B11FA52B5900EEFE3B /* BikeRacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D757B41FA52B5900EEFE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D757B61FA52B5900EEFE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,20 @@
 		33D757D01FA52B5900EEFE3B /* BikeRacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeRacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D757D41FA52B5900EEFE3B /* BikeRacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRacksUITests.swift; sourceTree = "<group>"; };
 		33D757D61FA52B5900EEFE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D757E31FA52EBD00EEFE3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		33D757E41FA52EC500EEFE3B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		33D757E51FA52EF500EEFE3B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		33D757E61FA52EFC00EEFE3B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		33D757E71FA52F0500EEFE3B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		33D757E81FA52F0B00EEFE3B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		33D757E91FA52F3600EEFE3B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		33D757EA1FA52F4300EEFE3B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		33D757EB1FA52F4800EEFE3B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		33D757EC1FA52F5000EEFE3B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		33D757ED1FA52F5600EEFE3B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		33D757EE1FA52F5C00EEFE3B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E67427001B8F09C11C0865AF /* Pods-BikeRacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeRacks/Pods-BikeRacks.release.xcconfig"; sourceTree = "<group>"; };
+		EC120F6ECF79BFAB974F8922 /* libPods-BikeRacks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BikeRacks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7410ACBAE0B969CB2AAB457F /* libPods-BikeRacks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				33D757C81FA52B5900EEFE3B /* BikeRacksTests */,
 				33D757D31FA52B5900EEFE3B /* BikeRacksUITests */,
 				33D757B21FA52B5900EEFE3B /* Products */,
+				33D757E21FA52EBC00EEFE3B /* Frameworks */,
+				A432EBA927932188905BF0A5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +144,35 @@
 			path = BikeRacksUITests;
 			sourceTree = "<group>";
 		};
+		33D757E21FA52EBC00EEFE3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33D757EE1FA52F5C00EEFE3B /* SystemConfiguration.framework */,
+				33D757ED1FA52F5600EEFE3B /* QuartzCore.framework */,
+				33D757EC1FA52F5000EEFE3B /* OpenGLES.framework */,
+				33D757EB1FA52F4800EEFE3B /* libz.tbd */,
+				33D757EA1FA52F4300EEFE3B /* libicucore.tbd */,
+				33D757E91FA52F3600EEFE3B /* libc++.tbd */,
+				33D757E81FA52F0B00EEFE3B /* ImageIO.framework */,
+				33D757E71FA52F0500EEFE3B /* GLKit.framework */,
+				33D757E61FA52EFC00EEFE3B /* CoreText.framework */,
+				33D757E51FA52EF500EEFE3B /* CoreLocation.framework */,
+				33D757E41FA52EC500EEFE3B /* CoreData.framework */,
+				33D757E31FA52EBD00EEFE3B /* AVFoundation.framework */,
+				EC120F6ECF79BFAB974F8922 /* libPods-BikeRacks.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A432EBA927932188905BF0A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1591492E2E49EEDDDADB9F1D /* Pods-BikeRacks.debug.xcconfig */,
+				E67427001B8F09C11C0865AF /* Pods-BikeRacks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33D757D91FA52B5900EEFE3B /* Build configuration list for PBXNativeTarget "BikeRacks" */;
 			buildPhases = (
+				520F265939134399CDA0FA66 /* [CP] Check Pods Manifest.lock */,
 				33D757AD1FA52B5900EEFE3B /* Sources */,
 				33D757AE1FA52B5900EEFE3B /* Frameworks */,
 				33D757AF1FA52B5900EEFE3B /* Resources */,
+				AA136181EBAE7ED34853AFE2 /* [CP] Embed Pods Frameworks */,
+				25106A04F314D770B3537D36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +244,7 @@
 				TargetAttributes = {
 					33D757B01FA52B5900EEFE3B = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					33D757C41FA52B5900EEFE3B = {
@@ -253,6 +305,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25106A04F314D770B3537D36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BikeRacks/Pods-BikeRacks-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeRacks/Pods-BikeRacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		520F265939134399CDA0FA66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeRacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA136181EBAE7ED34853AFE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeRacks/Pods-BikeRacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33D757AD1FA52B5900EEFE3B /* Sources */ = {
@@ -424,14 +531,19 @@
 		};
 		33D757DA1FA52B5900EEFE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1591492E2E49EEDDDADB9F1D /* Pods-BikeRacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26N54MC42Z;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = BikeRacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = isabelnackley.BikeRacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +551,19 @@
 		};
 		33D757DB1FA52B5900EEFE3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67427001B8F09C11C0865AF /* Pods-BikeRacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26N54MC42Z;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = BikeRacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = isabelnackley.BikeRacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
