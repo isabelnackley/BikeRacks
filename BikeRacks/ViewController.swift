@@ -12,7 +12,7 @@ import GoogleMaps
 class ViewController: UIViewController {
     
     override func loadView() {
-        let camera = GMSCameraPosition.camera(withLatitude: 0.00, longitude: 0.00, zoom: 12)
+        let camera = GMSCameraPosition.camera(withLatitude: 36.0014, longitude: -78.9382, zoom: 14)
         let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
         self.view = mapView
     }
